@@ -1,0 +1,76 @@
+body {
+  background: white;
+  color: rgb(255,0,0);
+}
+
+header {
+  background: rgb(255, 255, 0);
+  color: rgb(0, 0, 0);
+  border-bottom: 4px solid rgb(255, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* afin d'avoir le site qui se réageance en fonction d'un tel ou ordi (taille de l'écran)*/
+}
+
+.galerie ul {
+  background: rgb(255, 255, 0);
+  padding: 26px;
+  display: flex;
+}
+  /*commentaire en css*/
+
+  nav ul{
+    list-style-type: none;
+    display: flex;
+  }
+
+  nav a {
+    font-size: 2em;
+    text-transform: uppercase;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1em;
+    border-radius: 4px;
+
+  }
+  /*menu avec bord*/
+  section{
+    min-height: 300px;
+  }
+.identity{
+  background: orange;
+}
+#why{
+  background:rgb(255, 255, 0);
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.section-container{
+  box-shadow: -webkit-box-shadow: 2px 3px 39px 20px rgba(152,0,0,1);
+-moz-box-shadow: 2px 3px 39px 20px rgba(152,0,0,1);
+box-shadow: 2px 3px 39px 20px rgba(152,0,0,1);
+max-width: 800px;
+padding: 30px;
+text-align: center;
+}
+
+.TITLE1{
+  font-family: monospace;
+}
+figure{
+  border: 3em;
+  box-shadow: -webkit-box-shadow: 2px 4px 20px 16px rgba(255,255,255,1);
+-moz-box-shadow: 2px 4px 20px 16px rgba(255,255,255,1);
+box-shadow: 2px 4px 20px 16px rgba(255,255,255,1);
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure img {
+  width: 100%;
+}
